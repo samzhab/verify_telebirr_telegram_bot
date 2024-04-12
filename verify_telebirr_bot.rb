@@ -295,7 +295,7 @@ class VerifyTelebirrBot # rubocop:disable Metrics/ClassLength,Style/Documentatio
     bot.api.send_message(chat_id: message.chat.id, text: "#{key.capitalize} set to: #{link}")
   end
 
-  def cleanup_working_directory # rubocop:disable Metrics/MethodLength,Metrics/AbcSize
+  def cleanup_working_directory
     LOGGER.info('Cleaning up working directory...')
     rename_old_data_file
     # Delete all image files
@@ -304,19 +304,10 @@ class VerifyTelebirrBot # rubocop:disable Metrics/ClassLength,Style/Documentatio
     end
 
     # Delete all gemini api usage data apart from the latest
-    gemini_files = Dir.glob('data/*gemini_*.yaml')
-    gemini_files.sort_by! { |file| File.mtime(file) }
-    gemini_files.pop # remove the latest file from the list
-    gemini_files.each do |file|
-      File.delete(file)
-    end
+    return unless latest_gemini_file
 
-    # Rename the latest gemini file with today's date
-    latest_gemini_file = Dir.glob('*gemini_*.data').first
-    if latest_gemini_file
-      new_name = "gemini_#{Time.now.strftime('%Y_%m_%d')}.data"
-      File.rename(latest_gemini_file, new_name)
-    end
+    new_name = "gemini_#{Time.now.strftime('%Y_%m_%d')}.data"
+    File.rename(latest_gemini_file, new_name)
   end
 
   def export_stored_data(bot, message) # rubocop:disable Metrics/AbcSize,Metrics/CyclomaticComplexity,Metrics/MethodLength,Metrics/PerceivedComplexity
@@ -416,7 +407,7 @@ class VerifyTelebirrBot # rubocop:disable Metrics/ClassLength,Style/Documentatio
         end
       rescue StandardError => e
         LOGGER.error("Error loading YAML file: #{e.class}: #{e.message}")
-        return
+        nil
       end
     else
       LOGGER.error('Failed to extract amount data or transaction code from the provided text.')
@@ -434,13 +425,11 @@ class VerifyTelebirrBot # rubocop:disable Metrics/ClassLength,Style/Documentatio
   end
 
   def handle_group_verification(bot, message, verification_code) # rubocop:disable Lint/UnusedMethodArgument
-    begin
-      LOGGER.info((UI_STRINGS['only_private_verification']).to_s)
-      bot.api.send_message(chat_id: message.chat.id,
-                           text: "#{UI_STRINGS['only_private_verification']}") # rubocop:disable Style/RedundantInterpolation
-    rescue StandardError => e
-      LOGGER.error("Error sending message #{e.class}: #{e.message}")
-    end
+    LOGGER.info((UI_STRINGS['only_private_verification']).to_s)
+    bot.api.send_message(chat_id: message.chat.id,
+                         text: "#{UI_STRINGS['only_private_verification']}") # rubocop:disable Style/RedundantInterpolation
+  rescue StandardError => e
+    LOGGER.error("Error sending message #{e.class}: #{e.message}")
   end
 
   def handle_private_verification(bot, message, verification_code) # rubocop:disable Metrics/AbcSize,Metrics/MethodLength,Metrics/PerceivedComplexity,Metrics/CyclomaticComplexity
