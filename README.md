@@ -39,7 +39,7 @@ This Telegram bot facilitates interactions between customers and service provide
 
 4. በ`.env` ፋይል ውስጥ `YOUR_BOT_TOKEN`ን በቦት ቶከንዎ ይተኩ።
 
-5. የምዝግብ ማስታወሻዎችን (logs) እና የ(qr_codes) አቃፊዎችን (folders) ይፍጠሩ
+5. የምዝግብ ማስታወሻዎችን (logs) (data) (telebirr_confirmations) እና የ(qr_codes) አቃፊዎችን (folders) ይፍጠሩ
 
 6. ቦቱን ያሂዱ፡ `ruby verify_telebirr_bot.rb`
 
@@ -55,7 +55,7 @@ This Telegram bot facilitates interactions between customers and service provide
 
 4. Replace `YOUR_BOT_TOKEN` in the `.env` file with your actual bot token.
 
-5. Create logs and qr_codes folders
+5. Create logs, data, telebirr_confirmations, and qr_codes folders
 
 6. Run the bot: `ruby verify_telebirr_bot.rb`
 
