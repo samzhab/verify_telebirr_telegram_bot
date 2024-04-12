@@ -1,0 +1,16 @@
+.env
+.byebug_history
+data/*
+logs/*
+*.jpg
+*.png
+*.log
+.DS_Store
+node_modules/
+dist/
+.idea/
+*.swp
+*.swo
+*.swn
+*.pyc
+__pycache__/
