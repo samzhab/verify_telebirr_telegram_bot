@@ -1,0 +1,80 @@
+locations:
+  - name: National Museum of Ethiopia
+    latitude: 9.0222
+    longitude: 38.7461
+
+  - name: Holy Trinity Cathedral
+    latitude: 9.0343
+    longitude: 38.7497
+
+  - name: Meskel Square
+    latitude: 9.0328
+    longitude: 38.7498
+
+  - name: Addis Mercato
+    latitude: 9.0337
+    longitude: 38.7446
+
+  - name: Unity Park
+    latitude: 9.0186
+    longitude: 38.7412
+
+  - name: Entoto Mountain
+    latitude: 9.0720
+    longitude: 38.8032
+
+  - name: National Palace
+    latitude: 9.0317
+    longitude: 38.7635
+
+  - name: St. George's Cathedral
+    latitude: 9.0361
+    longitude: 38.7573
+
+  - name: Africa Hall
+    latitude: 9.0453
+    longitude: 38.7495
+
+  - name: Yekatit 12 Monument
+    latitude: 9.0212
+    longitude: 38.7423
+
+  - name: Red Terror Martyrs Memorial Museum
+    latitude: 9.0554
+    longitude: 38.7464
+
+  - name: Ethnological Museum
+    latitude: 9.0226
+    longitude: 38.7485
+
+  - name: Addis Ababa University
+    latitude: 9.0274
+    longitude: 38.7598
+
+  - name: Tiglachin Monument
+    latitude: 9.0450
+    longitude: 38.7481
+
+  - name: Lion of Judah
+    latitude: 9.0236
+    longitude: 38.7434
+
+  - name: Addis Ababa Stadium
+    latitude: 9.0026
+    longitude: 38.7418
+
+  - name: Addis Ababa Museum
+    latitude: 9.0367
+    longitude: 38.7495
+
+  - name: Grand Anwar Mosque
+    latitude: 9.0473
+    longitude: 38.7648
+
+  - name: Menelik Palace
+    latitude: 9.0517
+    longitude: 38.7583
+
+  - name: National Theatre
+    latitude: 9.0300
+    longitude: 38.7599
