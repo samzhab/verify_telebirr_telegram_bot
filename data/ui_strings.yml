@@ -1,0 +1,253 @@
+start_message: "🎉🇪🇹 ሰላም %{first_name} እንኳን ደና መጡ! 🎊🤗
+Hello, %{first_name}! Welcome to the Telegram Bot 😃👋🏼 ምን ማረግ እንደምችል ለማየት
+  /help ይላኩ \n\n Use the /help command to see what I can do."
+help_message: "ይህ ቦት የቴሌብር ክፍያ መረጃ ይሰጦታል፣ መክፈሎን ያረጋግጣል። የሳምንቱን ፕሮግራም ያወጣል።
+ትኬተ‍እ በመቁረጥ ቅድመተከተል ያስይዛል። ለሞደሬሽን ይጠቅማል። ለመሞከር ከታች በግራ በኩል ያለውን ሜኑ ይክፈቱ። \n\n
+This bot Streamlines telebirr payment and verification, channel administration,
+delivery of tickets with QR codes and customer service contact and venue
+information for verified payments. Enhancing safe community engagement, trust
+and content moderation on Ethiopian Telegram"
+verify_usage_text: "አጠቃቀም: የቴሌብር ማረጋገጫ ቁጥርዎን ከስልክዎ መልዕክት ሳጥን ውስጥ በመውሰድ
+/verify ብለው ያስገቡት። ለምሳሌ `/verify BCL4HFPEU7 6620` በማለት ያስገቡት። ቦቱ አይቶ ከተከፈለ
+ቲኬቱን ያወጣልዎታል / ቦታ ይይዝልዎታል💓። \n\n
+Usage: Send me your Telebirr verification code and booking confirmation codes
+in private chat.\n\n `/verify BCL4HFPEU7 6620`. After verifying, I will send you the ticket / schedule
+information in private chat💓."
+invitation_text: "የእኛን ልዩ የድር መተግበሪያ በመክፈት ተጨማሪ ባህሪያትን እና ይዘትን ያስሱ!
+ለመጀመር ከዚህ በታች ያለውን አዝራር ጠቅ ያድርጉ። \n\nExplore more features and interactive
+content by opening our special Web App! Click the button below to get started.
+(make sure to checkout our terms and privacy before you do)"
+under_construction_message: "የመረጡትን ምረጫ አሁን እንዴት እደማስተናግደው እያሰብኩ ስለሆነ ሌላ
+ይምረጡ። \n\n That command is currently being developed. Choose another."
+terms_of_use_amharic: "የዘመነ የአጠቃቀም ውል
+ለመጨረሻ ጊዜ የተሻሻለው፡ ኤፕሪል 4፣ 2024
+1 መግቢያ
+ወደ @verify_telebirr_telegram_bot (The Bot) የግል የውይይት አደራጅ እንኳን በደህና መጡ
+ለአዋቂዎች ፈቃድ. ቦት ለማቅረብ የተነደፈ የቴሌግራም ቦት ነው።
+ለግል የቴሌግራም ቻናል/ቡድን ተመልካቾች ተስማሚ ተግባራት። በ
+ከቦት ጋር በመገናኘት በእነዚህ የአጠቃቀም ውል («ውሎች») ተስማምተሃል። አንተ
+ቦት ለማሳያ ዓላማዎች መሰጠቱን እውቅና ይስጡ
+ሊሆኑ የሚችሉ የመተግበሪያ ግንዛቤዎች.
+2. የቦት አጠቃቀም
+ቦት ግብይቶችን እንደ ማረጋገጫ እና የማረጋገጫ ዘዴ ብቻ ለመጠቀም ያለመ ነው።
+ክፍያ የሚያስፈልጋቸው ዕቃዎችን እና አገልግሎቶችን በኢትዮቴሌኮም ቴሌብር እንዲሰራ ማድረግ።
+3. የተጠቃሚ ምግባር
+በግል አጠቃቀም ወሰን ውስጥ ከቦት ጋር እንዲገናኙ ይበረታታሉ።
+አላግባብ መጠቀም፣ አይፈለጌ መልእክት ማስተላለፍ፣ አጸያፊ መልዕክቶችን ማስተላለፍ ወይም መግባትን ጨምሮ
+ሕገ-ወጥ ድርጊቶች መዳረሻዎን ወደ መቋረጥ ያመራሉ.
+4. አእምሯዊ ንብረት
+በቦት የሚታየው ይዘት እና ተግባር የታሰበ ብቻ ነው።
+ለማሳያ ዓላማዎች. ማባዛት፣ ማሰራጨት፣ ወይም ያልተፈቀደ አጠቃቀም
+ከማሳያ አውድ ውጭ የተከለከለ ነው።
+5. ማስተባበያዎች
+ቦት የሚቀርበው 'እንደሆነ' እና 'እንደሚገኝ' ለማሳያ ዓላማዎች ብቻ ነው።
+ስለ ትክክለኝነት፣ አስተማማኝነት እና ተፈጻሚነት ምንም አይነት ዋስትና አንሰጥም።
+ለተወሰኑ የንግድ ፍላጎቶች የታዩት ተግባራት።
+6. የተጠያቂነት ገደብ
+በእርስዎ Bot አጠቃቀም ላይ በመመስረት ለሚደረጉ ውሳኔዎች ወይም እርምጃዎች ተጠያቂ አይደለንም።
+7. ውሎች ላይ ለውጦች
+እነዚህን ውሎች በማንኛውም ጊዜ የማዘመን መብታችን የተጠበቀ ነው። የእርስዎ ቀጣይ አጠቃቀም
+ቦት ከማንኛውም ለውጦች በኋላ የተሻሻሉ ውሎችን መቀበላችሁን ያሳያል።
+8. የውሂብ አሰባሰብ እና አጠቃቀም
+8.1 የተጠቃሚ ውሂብ Gemini AI API ጥሪዎችን እና ምላሾችን በብቃት ለማድረስ ቦት
+የተወሰነ የተጠቃሚ ውሂብ ይሰበስባል እና ይጠቀማል። ይህ ውሂብ የሚከተሉትን ያጠቃልላል
+     የቴሌግራም ተጠቃሚ መታወቂያ፡ የቴሌግራም መለያዎን በልዩ ሁኔታ ይለያል።
+     የቴሌግራም የተጠቃሚ ስም (ከተፈለገ)፡ በ
+     ቦት (ለምሳሌ ሰላምታ)።
+8.2 የተጠቃሚ ውሂብ አጠቃቀም
+የተሰበሰበው የተጠቃሚ ውሂብ ለሚከተሉት ዓላማዎች ጥቅም ላይ ይውላል።
+     እርስዎን እንደ ልዩ ተጠቃሚ ለመለየት እና የBot መዳረሻዎን ለማስተዳደር።
+     ማድረስን ጨምሮ በእርስዎ እና በቦት መካከል ግንኙነትን ለማመቻቸት
+     Gemini AI ምላሾች.
+     በቦት (ከተፈለገ፣ የተጠቃሚ ስም) የእርስዎን ተሞክሮ ለግል ለማበጀት።
+8.3 የውሂብ ደህንነት
+የምንሰበስበውን የተጠቃሚ ውሂብ ለመጠበቅ ምክንያታዊ እርምጃዎችን እንወስዳለን። ሆኖም ግን, አይደለም
+የድር ጣቢያ ወይም የበይነመረብ ስርጭት ሙሉ በሙሉ ደህንነቱ የተጠበቀ ነው። ዋስትና መስጠት አንችልም።
+የተጠቃሚ ውሂብዎ ደህንነት።
+8.4 የእርስዎ ፈቃድ
+ቦትን በመጠቀም፣ የእርስዎን ለመሰብሰብ፣ ለመጠቀም እና ይፋ ለማድረግ ተስማምተዋል።
+በዚህ ክፍል 8 ላይ እንደተገለጸው የተጠቃሚ ውሂብ።
+9. የአስተዳደር ህግ
+እነዚህ ውሎች የሚተዳደሩት እና የሚነገሩት በህጎቹ መሰረት ነው።
+ኢትዮጵያ የሕግ አንቀጾቿን ሳይመለከቱ።
+10. ሙሉ ስምምነት
+እነዚህ ውሎች በአንተ እና በእኛ መካከል ያለውን አጠቃላይ ስምምነት ይመሰርታሉ
+የቦት አጠቃቀምን እና ሁሉንም የቀድሞ ወይም ወቅታዊ ግንኙነቶችን ይተካ እና
+የቃል ወይም የጽሑፍ ሀሳቦች።"
+terms_of_use_english: "Updated Terms of Use
+Last Amended: April 4, 2024
+1. Introduction
+Welcome to @verify_telebirr_telegram_bot (the Bot), a private chat organizer
+for consenting adults. The Bot is a Telegram bot designed to provide
+functionalities suitable for a private telegram channel/group audience. By
+interacting with the Bot, you agree to these Terms of Use ('Terms'). You
+acknowledge that the Bot is provided for demonstration purposes to showcase
+potential application insights.
+2. Use of the Bot
+The bot is aimed to be used only as a verification and confirmation mechanism for transactions
+involving goods and services that need payment to be processed through Ethiotelecom's Telebirr.
+3. User Conduct
+You are encouraged to interact with the Bot within the scope of private use.
+Misuse, including spamming, transmitting offensive messages, or engaging in
+illegal activities, will lead to termination of your access.
+4. Intellectual Property
+The content and functionalities demonstrated by the Bot are intended solely
+for demonstration purposes. Reproduction, distribution, or unauthorized use
+outside the demonstration context is prohibited.
+5. Disclaimers
+The Bot is provided 'as is' and 'as available' for demonstration purposes only.
+We make no warranties regarding the accuracy, reliability, or applicability of
+the demonstrated functionalities for specific business needs.
+6. Limitation of Liability
+We are not liable for decisions or actions taken based on your use of the Bot.
+7. Changes to Terms
+We reserve the right to update these Terms at any time. Your continued use of
+the Bot after any changes signifies your acceptance of the amended terms.
+8. Data Collection and Use
+8.1 User Data In order to effectively deliver Gemini AI API calls and responses, the Bot
+collects and uses certain user data. This data includes:
+    Telegram User ID: Uniquely identifies your Telegram account.
+    Telegram Username (optional): Used to personalize your experience with the
+    Bot (e.g., greetings).
+8.2 Use of User Data
+The collected user data is used for the following purposes:
+    To identify you as a unique user and manage your access to the Bot.
+    To facilitate communication between you and the Bot, including delivering
+    Gemini AI responses.
+    To personalize your experience with the Bot (optional, username).
+8.3 Data Security
+We take reasonable steps to protect the user data we collect. However, no
+website or internet transmission is completely secure. We cannot guarantee the
+security of your user data.
+8.4 Your Consent
+By using the Bot, you consent to the collection, use, and disclosure of your
+user data as described in this Section 8.
+9. Governing Law
+These Terms shall be governed by and construed in accordance with the laws of
+Ethiopia without regard to its conflict of law provisions.
+10. Entire Agreement
+These Terms constitute the entire agreement between you and us regarding the
+use of the Bot and supersede all prior or contemporaneous communications and
+proposals, whether oral or written."
+privacy_policy_amharic: "የዘመነ የግላዊነት መመሪያ
+ለመጨረሻ ጊዜ የተሻሻለው፡ ኤፕሪል 4፣ 2024
+1. መግቢያ ይህ የግላዊነት ፖሊሲ እንዴት እንደምንሰበስብ፣ እንደምንጠቀም እና እንደምንገልጥ ይገልጻል
+የእርስዎን መረጃ ከ @verify_telebirr_telegram_bot አጠቃቀም ጋር በተገናኘ
+(ቦት)። 2. የምንሰበስበው መረጃ (አማራጭ) ቦት መረጃን ብቻ ይሰበስባል
+ከGemini AI ተግባር ጋር መስተጋብር ለመፍጠር ሲመርጡ። ይህ ተግባር ነው።
+‹ጌሚኒ› በሚለው ቃል በሚጀምሩ መልእክቶች የተቀሰቀሰ (ጉዳይ የማይሰማ)፣ ከዚያም ሀ
+ክፍተት. እንደዚህ ባሉ አጋጣሚዎች የሚከተለውን መረጃ እንሰበስባለን፡ የቴሌግራም ተጠቃሚ መታወቂያ፡
+የቴሌግራም መለያዎን በልዩ ሁኔታ ይለያል።የቴሌግራም የተጠቃሚ ስም (ከተፈለገ)፡ ግላዊ ለማድረግ ይጠቅማል
+ከቦት ጋር ያለዎት ልምድ (ለምሳሌ፡ ሰላምታ)። ጠቃሚ ማሳሰቢያ: በጭራሽ የማይጠቀሙ ከሆነ
+  የጌሚኒ AI ተግባር መልእክቶችዎን በ'Gemini' በመጀመር ቦት ይሰራል
+ስለእርስዎ ምንም አይነት መረጃ አይሰበስቡም. የ ሙሉ ተግባራት መደሰት ይችላሉ
+  ቦት (ከጌሚኒ AI ሌላ) ምንም ውሂብ ሳያቀርቡ. 3. የእርስዎን እንዴት እንደምንጠቀም
+  መረጃ (አማራጭ) ከእርስዎ የምንሰበስበውን መረጃ እርስዎ ሲሆኑ ብቻ ነው የምንጠቀመው
+እርስዎን እንደ ልዩ ተጠቃሚ ለመለየት ከጌሚኒ AI ተግባር ጋር መስተጋብር መፍጠር
+ለ Gemini AI ጥያቄዎች. በእርስዎ እና በጌሚኒ AI መካከል ግንኙነትን ማመቻቸት፣
+ምላሽ መስጠትን ጨምሮ። ከቦት ጋር ያለዎትን ልምድ ያብጁ
+(አማራጭ ፣ የተጠቃሚ ስም) Gemini AI ሲጠቀሙ። 4. መረጃዎን እንዴት እንደምናጋራ
+(አማራጭ) የእርስዎን መረጃ ለማስኬድ ከ Gemini AI ጋር ብቻ እናጋራለን።
+የ Gemini AI ተግባርን ሲጠቀሙ ምላሾችን ይጠይቁ እና ያቅርቡ።
+Gemini AI እርስዎ ሊያገኙት የሚችሉት የራሱ የግላዊነት ፖሊሲ አለው።
+[https://support.google.com/gemini/answer/13594961?hl=en]። 5. የእርስዎ ምርጫዎች እርስዎ
+የእርስዎን ውሂብ መሰብሰብን በተመለከተ ምርጫ ይኑርዎት፡-
+መልዕክቶችን በማስቀረት የጌሚኒ AI ተግባርን ላለመጠቀም መምረጥ ይችላሉ።
+ከ 'ጌሚኒ' ጀምሮ። በዚህ መንገድ ቦት ስለእርስዎ ምንም አይነት መረጃ አይሰበስብም።
+6. የውሂብ ደህንነት
+ከእርስዎ የምንሰበስበውን መረጃ ለመጠበቅ ምክንያታዊ እርምጃዎችን እንወስዳለን።
+ሆኖም የትኛውም ድር ጣቢያ ወይም የበይነመረብ ስርጭት ሙሉ በሙሉ ደህንነቱ የተጠበቀ ነው። አንችልም
+የመረጃዎን ደህንነት ዋስትና ይስጡ ።
+7. የልጆች ግላዊነት
+ቦት ከ18 ዓመት በታች ለሆኑ ህጻናት ጥቅም ላይ እንዲውል የታሰበ አይደለም።
+ከ18 አመት በታች ከሆኑ ህጻናት መረጃን እያወቁ መሰብሰብ።
+8. በዚህ የግላዊነት ፖሊሲ ላይ የተደረጉ ለውጦች
+ይህንን የግላዊነት መመሪያ በማንኛውም ጊዜ ማዘመን እንችላለን። ማንኛውንም እናሳውቅዎታለን
+አዲሱን የግላዊነት ፖሊሲ በዚህ ገጽ ላይ በመለጠፍ ይለወጣል።
+9. ያግኙን
+ስለዚህ የግላዊነት ፖሊሲ ማንኛቸውም ጥያቄዎች ካሉዎት፣ እባክዎን በ ላይ ያግኙን።
+t.me/SamaelLabs
+ቦትን በመጠቀም፣ በዚህ የግላዊነት መመሪያ ተስማምተሃል።"
+privacy_policy_english: "Updated Privacy Policy
+Last Amended: April 4, 2024
+1. Introduction This Privacy Policy describes how we collect, use, and disclose
+your information in connection with your use of the @verify_telebirr_telegram_bot
+(the 'Bot'). 2. Information We Collect (Optional) The Bot only collects information
+when you choose to interact with its Gemini AI functionality. This functionality is
+triggered by messages that start with the word 'Gemini' (case-insensitive), followed by a
+space. In such cases, we collect the following information: Telegram User ID:
+Uniquely identifies your Telegram account.Telegram Username (optional): Used to personalize
+your experience with the Bot (e.g., greetings). Important Note: If you never use
+ the Gemini AI functionality by starting your messages with 'Gemini', the Bot does
+not collect any information about you. You can enjoy the full functionality of the
+ Bot (other than Gemini AI) without providing any data. 3. How We Use Your
+ Information (Optional) We only use the information we collect from you when you
+interact with the Gemini AI functionality to: Identify you as a unique user
+for Gemini AI requests. Facilitate communication between you and Gemini AI,
+including delivering responses. Personalize your experience with the Bot
+(optional, username) when using Gemini AI. 4. How We Share Your Information
+(Optional) We only share your information with Gemini AI to process your
+requests and deliver responses when you use the Gemini AI functionality.
+Gemini AI has its own privacy policy which you can find at
+[https://support.google.com/gemini/answer/13594961?hl=en]. 5. Your Choices You
+have a choice regarding your data collection:
+You can choose not to use the Gemini AI functionality by avoiding messages
+starting with 'Gemini'. This way, the Bot will not collect any information about you.
+6. Data Security
+We take reasonable steps to protect the information we collect from you.
+However, no website or internet transmission is completely secure. We cannot
+guarantee the security of your information.
+7. Children's Privacy
+The Bot is not intended for use by children under the age of 18. We do not
+knowingly collect information from children under 18.
+8. Changes to This Privacy Policy
+We may update this Privacy Policy at any time. We will notify you of any
+changes by posting the new Privacy Policy on this page.
+9. Contact Us
+If you have any questions about this Privacy Policy, please contact us at
+t.me/SamaelLabs.
+By using the Bot, you agree to this Privacy Policy."
+complete_payment_info: "💰 ቦታ ማስያዝዎን ለማረጋገጥ እባክዎ በአስር ደቂቃ ውስጥ 500 ETB / 3000 ETB በTelebirr ያስተላልፉ
+ወደሚከተለው ስልክ ቁጥር፡\n\n+251911XXXXXX\n ከተላከ በኋላ የማረጋገጫ ኮድ ተጠቀም በTelebirr የተላከ sms ይደርስዎታል።
+ክፍያ፣ ትዕዛዙን የማረጋገጫ \n `/verify BCL3GHPES3 4434` nከተላከ በኋላ private link ይደርስዎታል።\n\n
+🛒💰 To confirm your booking, please transfer 500 ETB / 3000 ETB via Telebirr
+to the following phone number:\n\n+251911XXXXXX\n\nAfter sending the
+payment, use the `/verify BCL3GHPES3 4434` command followed by the confirmation code
+you receive in the SMS sent by Telebirr in the next 10 minutes. 🛒"
+payment_verified_info: "🎉🇪🇹 ክፍያዎን በሚገባ ጨርሰዋል። ለግብይቶ እናመሰግናለን። ይኸውልህ፡ \n\n
+Your payment was successful! Thank you for your purchase.😊🛍️
+Here is your link:"
+open_webapp_button: "ድረ-መተግበሪያውን ክፈት። Open WebApp"
+request_error_info: "ጥያቄህን በማስተናገድ ላይ ስህተት ነበር። እባክዎ ዳግም ይሞክሩ.
+There was an error processing your request. Please try again."
+notifed_of_verification: "ይህ የማረጋገጫ ኮድ አስቀድሞ ደርሶኛል።
+የግብዣ ማገናኛን ለእርስዎ ለማግኘት አሁንም በማሰራት ላይ ነኝ። በኋላ እንደገና ያረጋግጡ። \n\n
+I have already been notified of this verification code.
+I am still processing to getyou the invite link. Check again later."
+booking_info: "📖 የቦታ ማስያዣና ተያያዥ ግልልጋሎቶችን ለማግኝት \n\n
+Access Booking and other Services"
+notify_verification: "ኮድህን አረጋግጬ እልክሃለሁ ትዕይንቱን ለመቀላቀል የግብዣ ማገናኛ \n\n
+I will verify your code and send you
+the invite link to join the show."
+only_private_verification: "ማረጋገጥ የሚቻለው በግል ውይይት ውስጥ ብቻ ነው። \n\n
+Verification can only be done in private chat."
+telebirr_paid_user_notification: "አስቀድሜ ተጠቃሚውን በግብይት ልኬዋለሁ
+ኮድ ተጠቃሚው የእርስዎን ትርኢት መቀላቀል መቻል አለበት። \n\n
+I have already sent the user with transaction code. The user should be
+able to join your show."
+verifying_telebirr_notification: " "
+telebirr_paid_user_notified: "ተጠቃሚውን የግብይት ኮድ - ትዕይንቱን እንዲቀላቀል የግብዣ ማገናኛን እልካለሁ። \n\n
+I will send the user with transaction code the invite link to join the show."
+error_loading_data_notice: "ውሂብ በመጫን ጊዜ ስህተት። ቆይተው እንደገና ይሞክሩ። Error while loading data. Try again later."
+no_entries_found_notice: "ምንም ግቤቶች አልተገኙም። No entries found for"
+schedule_updated_with_notice: "መርሐግብር የዘመነው በ Schedule updated with"
+schedule_entry_exists_notice: "የመርሐግብር ግቤት አስቀድሞ አለ። Schedule entry already exists."
+removed_entries_notice: "የያዙ የተወገዱ ግቤቶች Removed entries containing"
+booking_request_info: "የቦታ ማስያዣ ክፍያዎን እያስተናገድን ነው… \n\n Hi! Your booking request is received."
+complete_payment_button: "💰 ክፈል Complete Payment 🛒"
+data_reset_remind: "እርግጠኛ ነዎት ሁሉንም የተከማቸ ውሂብ ዳግም ማስጀመር ይፈልጋሉ? \n\n
+Are you sure you want to reset all stored data?"
+export_data_message: "የተከማቸ ውሂብ Stored Data: \n"
+data_reset_confirmation: "የተከማቸ ውሂብ ዳግም ተጀምሯል። Stored data has been reset."
+payment_success: "🎉🇪🇹 ክፍያዎን በሚገባ ጨርሰዋል። ለግብይቶ እናመሰግናለን። \n Your payment was successful! Thank you for your purchase.😊🛍️"
+payment_error: "⚠️🇪🇹 በድጋሚ ይሞክሩት። ወይም የደንበኛ ረዳቶቻችንን ያናግሩ። \n There was a problem with your payment. Please try again or contact our customer support. 📞💔"
