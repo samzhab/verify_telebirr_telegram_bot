@@ -1,7 +1,6 @@
 .env
 Gemfile.lock
 .byebug_history
-data/*
 logs/*
 *.jpg
 *.png
