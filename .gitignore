@@ -2,6 +2,7 @@
 Gemfile.lock
 .byebug_history
 logs/*
+data*.yaml
 *.jpg
 *.png
 *.log
