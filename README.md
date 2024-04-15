@@ -1,8 +1,8 @@
 # ቴሌግራም የቴሌብር ክፍያ አረጋጋጭ Bot | Telegram Telebirr Payment Verification Bot
 
-ይህ የቴሌግራም ቦት በደንበኞች እና በአገልግሎት ሰጪወዎች መካከል በግል ቻናል ውስጥ ያለውን ግንኙነት ያመቻቻል። ደንበኞች ስለ ክፍት ቦታዎችና ቲኬቶች መረጃ እንዲጠይቁ፣ ፈጻሚዎችን እንዲመርጡ፣ ክፍያ እንዲፈጽሙ እና በግል ትርኢቶች እንዲዝናኑ ያስችላቸዋል።
+ይህ የቴሌግራም ቦት በደንበኞች እና በአገልግሎት ሰጪወዎች መካከል በግል ቻናል ውስጥ ያለውን ግንኙነት ያመቻቻል። ደንበኞች ስለ ክፍት ቦታዎችና ቲኬቶች መረጃ እንዲጠይቁ፣ ፈጻሚዎችን እንዲመርጡ፣ ክፍያ እንዲፈጽሙ እና በግል ትርኢቶች እንዲዝናኑ ያስችላቸዋል። ✨
 
-This Telegram bot facilitates interactions between customers and service providers in a private channel. It allows customers to request information about tickets, booking, scheduling, make payments and verify and enjoy ease of use.
+This Telegram bot streamlines interactions between customers and service providers within a Telegram group. 🤖 It enables customers to effortlessly request information about tickets, bookings, scheduling, make payments, verify, and enjoy seamless usability. ✨
 
 ## ዋና መለያ ጸባያት
 
@@ -17,14 +17,14 @@ This Telegram bot facilitates interactions between customers and service provide
 
 ## Features
 
-- Provides information about performance shows and their schedules.
-- Allows customers to choose a performer and proceed with payment.
+- Provides information about scheduling, booking, payment, verification and other vital information for telegram users.
+- Allows customers to choose an event, or time slot and proceed with payment.
 - Sends invoices and handles payment confirmation.
-- Posts and interacts with subscribers in private channels.
+- Posts and interacts with subscribers in telegram groups.
 - Sends private messages to subscribers.
-- Creates and removes private channels/groups.
-- Adds users to channels/groups and removes them.
-- Shares invite links to other channels.
+- Creates and removes private groups.
+- Adds users to groups and removes them.
+- Shares invite links to other groups.
 - Manages interactions between customers and performer.
 - Shares private chat links with customers after payment verification.
 - Notifies cam girls when customers arrive and when they are ready to start the show.
